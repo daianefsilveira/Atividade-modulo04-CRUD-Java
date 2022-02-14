@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+@import	url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.primary-color {
+  color: #66bbff;
+}
+
+.secondary-color {
+  color: #607080;
+}
+
+.primary-bg-color {
+  color: #fff;
+}
+
+.secondary-bg-color {
+  color: #7262bbd5;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #66bbff 0%, #7262bbd5 100%);
+}
+
+body {
+	font-family: 'PT', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1 {
+	color: #66bbff;
+	margin: 1rem 0;
+}
+
+@media (min-width: 600px)
+{
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 400;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 400;
+	border-radius: 5px;
+}
+}
+
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+/**/
+.icone{
+	color: #66bbff;
+	font-size: 40px;
+}
+
+
+#divBusca{
+  background-color: #66bbff;
+  border:solid 2px rgb(0, 0, 0);
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  color: white;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#66bbff;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
